@@ -10,7 +10,7 @@ import { useForm } from "react-hook-form"
 import * as z from 'zod';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { useEffect, useState } from "react";
-import FileUpload from "../file-upload";
+import {FileUpload} from "../file-upload";
 import { useRouter } from "next/navigation";
 
 
