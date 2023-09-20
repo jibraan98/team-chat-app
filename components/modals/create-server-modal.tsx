@@ -9,7 +9,7 @@ import axios from 'axios';
 import { useForm } from "react-hook-form"
 import * as z from 'zod';
 import { zodResolver } from '@hookform/resolvers/zod';
-import FileUpload from "../file-upload";
+import {FileUpload} from "../file-upload";
 import { useRouter } from "next/navigation";
 import { useModal } from "@/hooks/use-modal-store";
 
